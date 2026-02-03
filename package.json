@@ -14,5 +14,13 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mysql2": "^3.16.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDtechcave/Backend_node.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MDtechcave/Backend_node.js/issues"
+  },
+  "homepage": "https://github.com/MDtechcave/Backend_node.js#readme"
 }
