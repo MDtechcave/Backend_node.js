@@ -9,6 +9,9 @@ const pool = mysql.createPool({
     database: 'modern_tech',
     password: 'Aviwe'
 })
+
+// GETTING ALL THE INFOMATION FROM OUR MYSQL TO NODE
+
 const getEmployee_info = async () => {
     // query from MySQL in javascript
     let [data] = await pool.query ('SELECT * FROM employee_info')
